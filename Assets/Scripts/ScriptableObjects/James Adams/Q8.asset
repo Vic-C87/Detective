@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q8
+  m_EditorClassIdentifier: 
+  TheQuestion: 'Have you seen anything strange in the building? '
+  TheAnswer: "What do you mean strange? What are you even talking about? You\u2019ve
+    kept me here for 5 hours! Wait, do you think I had something to do with this?"
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: Why are you being so defensive? Have you seen something?
+    TheAnswer: "I\u2026 After Annie disappeared a few days ago\u2026 I saw something\u2026
+      I love Annie, she\u2019s the most beautiful woman I\u2019ve ever seen\u2026
+      but\u2026 this was\u2026 different. But it was also wrong, its eyes were like
+      headlights\u2026 Annie felt dull in comparison, I wanted to fall into its arms
+      but it disappeared. I can\u2019t stop thinking about it."
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0
