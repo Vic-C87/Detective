@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fullscreen CRT TV
+  m_Shader: {fileID: -6465566751694194690, guid: c5b3ca3371e61664183168b45f88cdf2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _CRT_BORDER
+  - _CRT_SCREEN_WARP
+  - _IMAGE_DISTORTION
+  - _RGB_STRIPES
+  - _SCROLLING_STATIC
+  - _STATIC
+  m_InvalidKeywords:
+  - _DIFFERENT_SCROLLING
+  - _OVERLAY
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: b19dd43d176234745b16a1e8ef79080e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CRT_BORDER: 1
+    - _CRT_SCREEN_WARP: 1
+    - _DIFFERENT_SCROLLING: 1
+    - _Distortion_Strength: 0.5
+    - _Fullscreen_AlphaBlendOperation: 0
+    - _Fullscreen_BlendMode: 0
+    - _Fullscreen_ColorBlendOperation: 0
+    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DstAlphaBlend: 10
+    - _Fullscreen_DstColorBlend: 10
+    - _Fullscreen_SrcAlphaBlend: 1
+    - _Fullscreen_SrcColorBlend: 5
+    - _IMAGE_DISTORTION: 1
+    - _Image_Brightness: 1
+    - _RGB_STRIPES: 1
+    - _RGB_Stripe_Resolution: 256
+    - _SCROLLING_STATIC: 1
+    - _STATIC: 1
+    - _Scanline_Height: 10
+    - _Scanline_Strength: 1
+    - _Static_Strength: 0.5
+    m_Colors:
+    - _Warp_Strength: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
