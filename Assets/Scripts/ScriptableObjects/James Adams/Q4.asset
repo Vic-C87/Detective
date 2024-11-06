@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q4
+  m_EditorClassIdentifier: 
+  TheQuestion: 'Can you tell me about Stuart Hartwell ?  '
+  TheAnswer: "He\u2019s a prick. He hasn\u2019t worked a proper day in his life,
+    he keeps talking \u2019bout his job down at the uni but hes full of it. I used
+    to find him sniffing around Annie when I came home from work\u2026 Well, when
+    I still had my job. "
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: 'What do you do nowadays? '
+    TheAnswer: "Pop down to the pub most days, usually too pissed to remember if
+      to be being honest. I\u2026 I couldn\u2019t get a new job, and I couldn\u2019t
+      face telling Annie the truth neither. So I told her I got a new gig and started
+      loaning from my parents. "
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 1
+  - TheQuestion: "Why didn\u2019t you tell Annie that you were unemployed? "
+    TheAnswer: "Look at me\u2026 I\u2019m pathetic, I\u2019m a fucking joke. If I
+      told her she would have left me, and taken Wendy with her. I can\u2019t even
+      take care of my daughter detective, who would stay with a man like that?"
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0
