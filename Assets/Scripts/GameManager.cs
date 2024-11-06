@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] List<GameObject> myCharacters;
 
-    int mySelectedCharacterIndex;
+    int mySelectedCharacterIndex = 0;
 
     private void Awake()
     {
