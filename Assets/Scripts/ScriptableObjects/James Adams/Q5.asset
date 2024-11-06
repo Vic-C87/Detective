@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q5
+  m_EditorClassIdentifier: 
+  TheQuestion: Can you tell me about Annie Adams?
+  TheAnswer: "I\u2026 I don\u2019t know what to tell you\u2026 Her smile was like
+    the sun, her eyes lit up when talking about her interests\u2026 We actually met
+    when I was working on this building, she was one of the first residents\u2026
+    I was just some construction worker but she said she didn\u2019t care. You should
+    see her garden, she loved her garden."
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: "I\u2019ve seen it, can you tell me more about her garden?"
+    TheAnswer: "Well I wasn\u2019t allowed in it, but\u2026 I saw it, a few times,
+      when I came to talk to her\u2026 it had these huge vines and flowers\u2026
+      some of them even looked like\u2026 they could swallow you whole. "
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 1
+  - TheQuestion: "Why didn\u2019t Annie let you into her garden?"
+    TheAnswer: "Well I\u2019m not sure to be honest, I also never asked. I thought
+      it would be good for her to get some alone time with her friends."
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0

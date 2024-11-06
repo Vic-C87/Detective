@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Select tape(Victor).unity
+    guid: 2e38de3a346f55a4989b98dc424c2799
+  - enabled: 1
+    path: Assets/Scenes/Interview Room(Victor).unity
+    guid: 1e77c7da3fa31f844923272ba47529c7
   m_configObjects: {}

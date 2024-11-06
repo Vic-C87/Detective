@@ -3,13 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
-public struct Question
+[CreateAssetMenu(fileName = "Question", menuName = "ScriptableObject/Questions", order = 1)]
+public class Question : ScriptableObject
 {
     public string TheQuestion;
-    public AudioClip TheQuestionAudio;
     public string TheAnswer;
     public AudioClip TheAnswerAudio;
     public bool HasFollowUp;
-    public List<Question> FollowUps;
+    public List<SQuestion> FollowUps;
 }

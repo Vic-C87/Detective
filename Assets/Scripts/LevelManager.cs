@@ -11,71 +11,106 @@ public class LevelManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI myAnswerText;
     [SerializeField] GameObject myFollowUpContainer;
 
+    [SerializeField] GameObject myCharacter;
     [SerializeField] Questions myQuestions;
 
     AudioSource myAudioSource;
 
-    List<Button> myMainQuestionButtons = new List<Button>();
-    public List<Button> myFollowUpQuestionButtons = new List<Button>();
+    Dictionary<Button, List<SQuestion>> myMainQuestionButtons = new Dictionary<Button, List<SQuestion>>();
+    Button myFollowUpQuestionButton;
 
-    [SerializeField] float myDelayBetweenQnA;
     [SerializeField] float myTypewriterDelay;
 
-    Color halfAlpha;
-    Color fullAlpha;
+    List<SQuestion> myCurrentFollowUps = new List<SQuestion>();
+    int myCurrentFollowUpIndex;
 
     private void Awake()
     {
         myAudioSource = GetComponent<AudioSource>();
-        halfAlpha = new Color(1, 1, 1, .5f);
-        fullAlpha = new Color(1, 1, 1, 2);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
+        LoadInNewCharacter(GameManager.Instance.GetCharacter());
+    }
+
+    public void LoadInNewCharacter(GameObject aCharacter)
+    {
+        if (myMainQuestionButtons.Count > 0) 
+        {
+            foreach (var button in myMainQuestionButtons)
+            {
+                Destroy(button.Key.gameObject);
+            }
+        }
+        myMainQuestionButtons = new Dictionary<Button, List<SQuestion>>();
+
+        GameObject character = Instantiate(aCharacter);
+
+        myCharacter = character;
+        myQuestions = myCharacter.GetComponent<Character>().GetQuestions();
+
         foreach (Question question in myQuestions.myQuestions)
         {
-            GameObject questionButton = Instantiate(myQuestionPrefab, myQuestionContainer.transform);
-            questionButton.GetComponentInChildren<TextMeshProUGUI>().text = question.TheQuestion;
-            Button button = questionButton.GetComponent<Button>();
-            button.onClick.AddListener(() => SelectQuestion(question, button));
-            myMainQuestionButtons.Add(button);
+            SetQuestionButton(question, myQuestionContainer.transform);
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    void SetQuestionButton(SQuestion aQuestion, Transform aParentTransform, List<SQuestion> someFollowUps,bool anIsMainQuestion = true)
     {
-        
+        GameObject questionButton = Instantiate(myQuestionPrefab, aParentTransform);
+        questionButton.GetComponentInChildren<TextMeshProUGUI>().text = aQuestion.TheQuestion;
+        Button button = questionButton.GetComponent<Button>();
+        button.onClick.AddListener(() => SelectQuestion(aQuestion, button, myCurrentFollowUps));
+        if (anIsMainQuestion)  
+            myMainQuestionButtons.Add(button, someFollowUps);
+        else
+            myFollowUpQuestionButton = button;
     }
 
-    void SelectQuestion(Question aQuestion, Button aButton)
+    void SetQuestionButton(Question aQuestion, Transform aParentTransform, bool anIsMainQuestion = true)
     {
-        //StopCoroutine(PlayDialogue(aQuestion, aButton));
-        StartCoroutine(PlayDialogue(aQuestion, aButton));
-    }
+        SQuestion question = new SQuestion();
+        question.TheQuestion = aQuestion.TheQuestion;
+        question.TheAnswer = aQuestion.TheAnswer;
+        question.TheAnswerAudio = aQuestion.TheAnswerAudio;
+        question.HasFollowUp = aQuestion.HasFollowUp;
 
-    IEnumerator PlayDialogue(Question aQuestion, Button aButtonPressed)
-    {
-        if (myMainQuestionButtons.Contains(aButtonPressed) && myFollowUpQuestionButtons.Count > 0) 
+        if (question.HasFollowUp)
         {
-            Destroy(myFollowUpQuestionButtons[0].gameObject);
+            myCurrentFollowUpIndex = 0;
+        }
+        SetQuestionButton(question, aParentTransform, aQuestion.FollowUps, anIsMainQuestion);
+    }
+
+    void SelectQuestion(SQuestion aQuestion, Button aButton, List<SQuestion> someFollowUps)
+    {
+        StartCoroutine(PlayDialogue(aQuestion, aButton, someFollowUps));
+    }
+
+    IEnumerator PlayDialogue(SQuestion aQuestion, Button aButtonPressed, List<SQuestion> someFollowUps)
+    {
+        if (myMainQuestionButtons.ContainsKey(aButtonPressed)) 
+        {
+            if (myFollowUpQuestionButton != null)
+            {
+                Destroy(myFollowUpQuestionButton.gameObject);
+                myFollowUpQuestionButton = null;
+                myCurrentFollowUpIndex = 0;
+            }
+            myCurrentFollowUps = someFollowUps;
         }
         myAnswerText.text = "";
-        myAudioSource.clip = aQuestion.TheQuestionAudio;
-        float clipLength = myAudioSource.clip.length;
-        myAudioSource.Play();
         aButtonPressed.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
         foreach (var button in myMainQuestionButtons)
         {
-            button.interactable = false;
+            button.Key.interactable = false;
+        }        
+        if (aQuestion.TheAnswerAudio != null)
+        {
+            myAudioSource.clip = aQuestion.TheAnswerAudio;
+            myAudioSource.Play();
         }
-        yield return new WaitForSeconds(clipLength + myDelayBetweenQnA);
-        
-
-        myAudioSource.clip = aQuestion.TheAnswerAudio;
-        myAudioSource.Play();
         for (int  i = 0; i < aQuestion.TheAnswer.Length; i++) 
         {
             myAnswerText.text += aQuestion.TheAnswer[i];
@@ -84,17 +119,27 @@ public class LevelManager : MonoBehaviour
         aButtonPressed.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Normal;
         foreach (var button in myMainQuestionButtons)
         {
-            button.interactable = true;
+            button.Key.interactable = true;
         }
 
         if (aQuestion.HasFollowUp) 
         {
-            myFollowUpQuestionButtons = new List<Button>();
-            GameObject followUpQuestionBtn = Instantiate(myQuestionPrefab, myFollowUpContainer.transform);
-            followUpQuestionBtn.GetComponentInChildren<TextMeshProUGUI>().text = aQuestion.FollowUps[0].TheQuestion;
-            Button button = followUpQuestionBtn.GetComponent<Button>();
-            button.onClick.AddListener(() => SelectQuestion(aQuestion.FollowUps[0], button));
-            myFollowUpQuestionButtons.Add(button);
+            if (myMainQuestionButtons.ContainsKey(aButtonPressed))
+            {
+                myCurrentFollowUps = myMainQuestionButtons[aButtonPressed];
+            }
+            if (myFollowUpQuestionButton != null)
+            {
+                Destroy(myFollowUpQuestionButton.gameObject);
+                myFollowUpQuestionButton = null;
+            }
+            SetQuestionButton(myCurrentFollowUps[myCurrentFollowUpIndex], myFollowUpContainer.transform, myCurrentFollowUps, false);
+            myCurrentFollowUpIndex++;
         }
+    }
+
+    public void ReturnToTapeSelect()
+    {
+        GameManager.Instance.ReturnToTapeSelect();
     }
 }

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q7
+  m_EditorClassIdentifier: 
+  TheQuestion: What do you do for work?
+  TheAnswer: Darling, do I look like I work? Nono, I spend my days here, caring for
+    Diana, writing on my manuscripts, drinking tea.
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: Why do you live here?
+    TheAnswer: "Well I\u2019m a woman of means. Or\u2026 at least I used to. Promise
+      you won\u2019t tell anyone detective but\u2026 I well\u2026 the rent here is
+      very cheap, it\u2019s all I can afford."
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0

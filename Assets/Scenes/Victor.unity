@@ -603,9 +603,6 @@ MonoBehaviour:
   myQuestionPrefab: {fileID: 82281670481273766, guid: 09ae0694cc1cda242b0953f1ec8780d1, type: 3}
   myAnswerText: {fileID: 2113783665}
   myFollowUpContainer: {fileID: 744741495}
-  myQuestions: {fileID: 1897607369}
-  myFollowUpQuestionButtons: []
-  myDelayBetweenQnA: 1
   myTypewriterDelay: 0.05
 --- !u!4 &1797859243
 Transform:
@@ -917,40 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc7330e1a6f41d4dac927575d89b304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myQuestions:
-  - TheQuestion: 'Can you tell me about James Adams?  '
-    TheQuestionAudio: {fileID: 8300000, guid: 5b474133eb88dac4093d45d19cf555d9, type: 3}
-    TheAnswer: "He\u2019s my dad, he used to build houses, but he didn\u2019t want
-      to do it anymore so he stopped. We live in room 237. I don\u2019t like how
-      he smells, but I still love him.  "
-    TheAnswerAudio: {fileID: 8300000, guid: 9e13a798afa3765488f44caf45e83178, type: 3}
-    HasFollowUp: 0
-    FollowUps: []
-  - TheQuestion: 'Can you tell me about Cassie Hack?  '
-    TheQuestionAudio: {fileID: 8300000, guid: 8a8ea19e97caad04f91b327ba448691f, type: 3}
-    TheAnswer: "She looks really scary, and says mean things, but she\u2019s actually
-      nice. She gives me candy sometimes, and calls me a little troll. She and Mum
-      used to drink tea in Mum's garden, but Mum never let me join when they were
-      doing that.  "
-    TheAnswerAudio: {fileID: 8300000, guid: 010f8acba82ac3f46ac5be673cdb1434, type: 3}
-    HasFollowUp: 1
-    FollowUps:
-    - TheQuestion: 'Why did your mum not let you drink tea with them? '
-      TheQuestionAudio: {fileID: 8300000, guid: fe1946dc08d5bcc48b60018d1f49ba00, type: 3}
-      TheAnswer: "She said it was a grown-up girls tea party, and that I could join
-        when I was older. But I saw Uncle Stuart going in there while they were doing
-        it, so it\u2019s not fair, he\u2019s a grownup but he's not a girl! "
-      TheAnswerAudio: {fileID: 8300000, guid: cd03ea78ef58b564092316ad5334e78e, type: 3}
-      HasFollowUp: 0
-      FollowUps: []
-  - TheQuestion: 'Can you tell me about Lola Hayes?  '
-    TheQuestionAudio: {fileID: 8300000, guid: a1f69ff00970abd408a988383105bf7d, type: 3}
-    TheAnswer: "I don\u2019t like her. I put a letter mum asked me to give her in
-      her letterbox once and she screamed at me. Her dog is cute but always barks
-      around mum.  "
-    TheAnswerAudio: {fileID: 8300000, guid: 0c8ba2b36da4c5a4c85c2be0772a338e, type: 3}
-    HasFollowUp: 0
-    FollowUps: []
+  myQuestions: []
 --- !u!4 &1897607370
 Transform:
   m_ObjectHideFlags: 0

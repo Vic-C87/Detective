@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q2
+  m_EditorClassIdentifier: 
+  TheQuestion: Can you tell me about James Adams?
+  TheAnswer: "That troglodyte? He\u2019s always lumbering about, stinking of spirits.
+    I tell you what, I should report a noise complaint about him, although I suppose
+    the landlord will be hard to contact now\u2026"
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 0
+  FollowUps: []
