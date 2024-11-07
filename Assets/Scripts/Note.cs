@@ -9,13 +9,11 @@ public class Note : MonoBehaviour
     [SerializeField] TextMeshProUGUI myNote;
     Notepad myNotepad;
 
-    // Start is called before the first frame update
     void Start()
     {
         myNotepad = GetComponentInParent<Image>().GetComponentInParent<Notepad>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         

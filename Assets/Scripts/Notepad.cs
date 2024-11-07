@@ -5,23 +5,33 @@ using TMPro;
 
 public class Notepad : MonoBehaviour
 {
+    
+
     [SerializeField] GameObject myNoteItemPrefab;
     [SerializeField] Transform myNoteParent;
     [SerializeField] TextMeshProUGUI myCurrentInput;
     [SerializeField] TMP_InputField myInputField;
 
-    bool myNotePadIsOpen;
+    bool myNotePadIsOpen = false;
     bool myEditMode  = false;
+
+    RectTransform myTransform;
+
+    [SerializeField] Vector2 myHiddenYPos;
+    [SerializeField] Vector2 myOpenYPos;
 
     List<Note> myNotes = new List<Note>();
     Note myNoteToEdit;
     //TODO
     List<string> myPreviousNotes;
 
+    private void Awake()
+    {
+        myTransform = GetComponent<RectTransform>();
+    }
+
     void Start()
     {
-        //Debug
-        myNotePadIsOpen = true;
     }
 
     void Update()
@@ -60,5 +70,19 @@ public class Notepad : MonoBehaviour
         myNoteToEdit = aNoteToEdit;
         myInputField.text = anOldText;
         myCurrentInput.text = anOldText;
+    }
+
+    public void ToggleNotePad()
+    {
+        if (!myNotePadIsOpen) 
+        {
+            myTransform.anchoredPosition = myOpenYPos;
+            myNotePadIsOpen = true;
+        }
+        else
+        {
+            myTransform.anchoredPosition = myHiddenYPos;
+            myNotePadIsOpen = false;
+        }
     }
 }
