@@ -755,7 +755,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6656,7 +6656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1ba9b1b607a338340b7219916c8cc269, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1ba9b1b607a338340b7219916c8cc269, type: 3}
       propertyPath: m_Controller
@@ -7060,6 +7060,67 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &2059550339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.992005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12619898
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_Name
+      value: Model Cassie Hack
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2f88ad2c162e3514ea2309494ced8f68, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
 --- !u!33 &58997150858190446
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11672,7 +11733,8 @@ SceneRoots:
   - {fileID: 961500066}
   - {fileID: 543450653165066817}
   - {fileID: 252457402}
+  - {fileID: 1940852720}
   - {fileID: 1374967818}
   - {fileID: 401882887}
   - {fileID: 812752942}
-  - {fileID: 1940852720}
+  - {fileID: 2059550339}
