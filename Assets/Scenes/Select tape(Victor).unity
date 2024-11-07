@@ -11296,7 +11296,7 @@ PrefabInstance:
       objectReference: {fileID: 709918691}
     - target: {fileID: 8643922174259952333, guid: 816b97286d962654b8a713bd2d04660e, type: 3}
       propertyPath: m_RenderMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8643922174259952333, guid: 816b97286d962654b8a713bd2d04660e, type: 3}
       propertyPath: m_PlaneDistance

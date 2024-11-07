@@ -16,7 +16,7 @@ MonoBehaviour:
   TheAnswer: "Nothing out of the ordinary really, but that\u2019s to be expected
     isn\u2019t it? It\u2019s supposed to be a regular apartment building. "
   TheAnswerAudio: {fileID: 8300000, guid: 12029c2a88d5d61438cee875e3b7b80c, type: 3}
-  HasFollowUp: 0
+  HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'What are you talking about? '
     TheAnswer: "I suppose it\u2019s easier if I explain, have you heard of Scotomization
