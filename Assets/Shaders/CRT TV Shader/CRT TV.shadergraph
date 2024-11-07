@@ -7986,10 +7986,10 @@
     "m_Guid": {
         "m_GuidSerialized": "71b6ed39-85bf-4359-9cd7-ad96d474e10f"
     },
-    "m_Name": "DistortionSpeed",
+    "m_Name": "Line Speed",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "DistortionSpeed",
-    "m_DefaultReferenceName": "_DistortionSpeed",
+    "m_RefNameGeneratedByDisplayName": "Line Speed",
+    "m_DefaultReferenceName": "_Line_Speed",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -7999,7 +7999,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 0.20000000298023225,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -11910,7 +11910,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "d1dc9b7d2a624483b08e9ac10d86572c",
     "m_Id": 0,
-    "m_DisplayName": "DistortionSpeed",
+    "m_DisplayName": "Line Speed",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

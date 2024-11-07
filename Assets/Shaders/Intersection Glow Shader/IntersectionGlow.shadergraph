@@ -17,9 +17,16 @@
         },
         {
             "m_Id": "409393a185a44bfeb73c8ef4307e6d3d"
+        },
+        {
+            "m_Id": "f78ff4c8e5704582b721851b30799222"
         }
     ],
-    "m_Keywords": [],
+    "m_Keywords": [
+        {
+            "m_Id": "295321a4c10b428491817fa3d3049b07"
+        }
+    ],
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
@@ -1283,6 +1290,47 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "295321a4c10b428491817fa3d3049b07",
+    "m_Guid": {
+        "m_GuidSerialized": "8bb4e4d5-1b2d-4571-be90-9a4a3d91f829"
+    },
+    "m_Name": "Material Quality",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Material Quality",
+    "m_DefaultReferenceName": "MATERIAL_QUALITY",
+    "m_OverrideReferenceName": "MATERIAL_QUALITY",
+    "m_GeneratePropertyBlock": false,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 1,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [
+        {
+            "id": 1,
+            "displayName": "High",
+            "referenceName": "HIGH"
+        },
+        {
+            "id": 2,
+            "displayName": "Medium",
+            "referenceName": "MEDIUM"
+        },
+        {
+            "id": 3,
+            "displayName": "Low",
+            "referenceName": "LOW"
+        }
+    ],
+    "m_Value": 0,
+    "m_IsEditable": false
 }
 
 {
@@ -2972,10 +3020,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -404.79998779296877,
-            "y": 52.79998779296875,
-            "width": 198.39999389648438,
-            "height": 118.4000244140625
+            "x": -423.1999816894531,
+            "y": 52.80000686645508,
+            "width": 198.4000244140625,
+            "height": 118.39999389648438
         }
     },
     "m_Slots": [
@@ -3481,6 +3529,12 @@
         },
         {
             "m_Id": "409393a185a44bfeb73c8ef4307e6d3d"
+        },
+        {
+            "m_Id": "f78ff4c8e5704582b721851b30799222"
+        },
+        {
+            "m_Id": "295321a4c10b428491817fa3d3049b07"
         }
     ]
 }
@@ -3900,6 +3954,33 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture3DShaderProperty",
+    "m_ObjectId": "f78ff4c8e5704582b721851b30799222",
+    "m_Guid": {
+        "m_GuidSerialized": "f66ab63d-d844-44dd-b50b-b46c34878765"
+    },
+    "m_Name": "Base Texture (1)",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Base Texture (1)",
+    "m_DefaultReferenceName": "_Base_Texture_1",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_Guid": ""
+    },
+    "m_Modifiable": true
 }
 
 {

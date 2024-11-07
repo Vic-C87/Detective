@@ -54,7 +54,7 @@ Material:
     - _CRT_BORDER: 1
     - _CRT_SCREEN_WARP: 1
     - _DIFFERENT_SCROLLING: 1
-    - _DistortionSpeed: 0.4
+    - _DistortionSpeed: 0.2
     - _Distortion_Noise_Scale: 100
     - _Distortion_Strength: 0.03
     - _Fullscreen_AlphaBlendOperation: 0
@@ -67,6 +67,7 @@ Material:
     - _Fullscreen_SrcColorBlend: 5
     - _IMAGE_DISTORTION: 1
     - _Image_Brightness: 2
+    - _Line_Speed: 0.2
     - _RGB_STRIPES: 1
     - _RGB_Stripe_Resolution: 480
     - _SCROLLING_STATIC: 1

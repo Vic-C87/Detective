@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: CRTTV
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 550
+  injectionPoint: 600
   fetchColorBuffer: 1
   requirements: 6
   passMaterial: {fileID: 2100000, guid: 8327d90429cba834cb5a340aa7309bfa, type: 2}
