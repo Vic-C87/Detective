@@ -837,7 +837,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -5395,7 +5395,7 @@ Transform:
   m_GameObject: {fileID: 1477075571572125939}
   serializedVersion: 2
   m_LocalRotation: {x: 5.420222e-17, y: 0.99405634, z: 5.420222e-17, w: 0.10886688}
-  m_LocalPosition: {x: -0, y: 0.125, z: 0}
+  m_LocalPosition: {x: -0, y: 0.122, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10930,6 +10930,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768097884482400882, guid: 816b97286d962654b8a713bd2d04660e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -180
+      objectReference: {fileID: 0}
     - target: {fileID: 1965367504263916331, guid: 816b97286d962654b8a713bd2d04660e, type: 3}
       propertyPath: m_Name
       value: NotepadCanvas
@@ -13284,7 +13288,6 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3332261981786134734, guid: a3f797494074b5b488f28558cb0bbfac, type: 3}
   - {fileID: 2100000, guid: b4e7ef38860e4cf44bb52493b1b355b7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
