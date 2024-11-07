@@ -52,7 +52,9 @@ Material:
     - _CRT_BORDER: 1
     - _CRT_SCREEN_WARP: 1
     - _DIFFERENT_SCROLLING: 1
-    - _Distortion_Strength: 1
+    - _DistortionSpeed: 0.4
+    - _Distortion_Noise_Scale: 100
+    - _Distortion_Strength: 0.03
     - _Fullscreen_AlphaBlendOperation: 0
     - _Fullscreen_BlendMode: 0
     - _Fullscreen_ColorBlendOperation: 0
@@ -64,12 +66,19 @@ Material:
     - _IMAGE_DISTORTION: 1
     - _Image_Brightness: 2
     - _RGB_STRIPES: 1
-    - _RGB_Stripe_Resolution: 128
+    - _RGB_Stripe_Resolution: 480
     - _SCROLLING_STATIC: 1
     - _STATIC: 1
-    - _Scanline_Height: 10
+    - _Scanline_Height: 5
     - _Scanline_Strength: 1
-    - _Static_Strength: 0.01
+    - _Scroll_Distortion_Lines: 1
+    - _Scroll_Distortion_Strength: 20
+    - _Scrolling_Distortion_Strength: 25
+    - _Scrolling_Speed: 0.5
+    - _Static_Speed: 0.5
+    - _Static_Strength: 0.02
     m_Colors:
+    - _Base_Color: {r: 1.9999999, g: 1.9999999, b: 1.9999999, a: 1}
+    - _ScrollSpeed: {r: 0, g: 0.01, b: 0, a: 0}
     - _Warp_Strength: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
