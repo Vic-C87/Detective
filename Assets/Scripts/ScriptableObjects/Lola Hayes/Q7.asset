@@ -15,12 +15,13 @@ MonoBehaviour:
   TheQuestion: What do you do for work?
   TheAnswer: Darling, do I look like I work? Nono, I spend my days here, caring for
     Diana, writing on my manuscripts, drinking tea.
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 66d164721775c2747900e3a807f1718a, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Why do you live here?
     TheAnswer: "Well I\u2019m a woman of means. Or\u2026 at least I used to. Promise
       you won\u2019t tell anyone detective but\u2026 I well\u2026 the rent here is
       very cheap, it\u2019s all I can afford."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: a91f53b4860cdc741b5b27a4363659f0, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

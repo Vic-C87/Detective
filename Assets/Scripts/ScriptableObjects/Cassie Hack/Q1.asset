@@ -15,7 +15,7 @@ MonoBehaviour:
   TheQuestion: Can you tell me about Wendy Adams?
   TheAnswer: "Wendy? I feel for her, she doesn\u2019t deserve all of this bullshit,
     she\u2019s just a kid."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: fdacd83d8621d7f41aca7d2446c2f293, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: What do you mean Wendy doesn't deserve it?
@@ -23,5 +23,6 @@ MonoBehaviour:
       looking for reasons why Annie left there\u2019s one. I saw her once y\u2019know,
       with that creep Stuart\u2026 She was touching his arm, laughing\u2026 She sure
       knows how to pick them."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 1774f1e41a931864aa59e79d1bf1f086, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

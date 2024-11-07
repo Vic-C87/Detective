@@ -15,6 +15,6 @@ MonoBehaviour:
   TheQuestion: Can you tell me about The Landlord?
   TheAnswer: "Short man, red hat, mustache\u2026 Mostly stays down in the basement
     I think, he once told me he used to be a plumber."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: d2804a50a6ceba9429b563d855ad9569, type: 3}
   HasFollowUp: 0
   FollowUps: []

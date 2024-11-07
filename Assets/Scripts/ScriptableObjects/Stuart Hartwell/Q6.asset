@@ -15,12 +15,13 @@ MonoBehaviour:
   TheQuestion: Can you tell me about The Landlord?
   TheAnswer: "Despicable man, cheap rent though, which is a bonus. You don\u2019t
     earn much in my line of work."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: bfadb42253b5a6440b208fe6bf5bc14a, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: "What\u2019s wrong with The Landlord? "
     TheAnswer: "Well he keeps going after things that aren\u2019t his. He\u2019s
       like a child trying to steal someone else's toy, or sees two people playing
       a game he wasn\u2019t invited to and tries to butt in. It\u2019s not his place."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: b4d7987cd0c709c49a756802a15c3344, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

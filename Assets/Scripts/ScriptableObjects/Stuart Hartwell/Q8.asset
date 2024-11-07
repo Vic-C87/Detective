@@ -15,7 +15,7 @@ MonoBehaviour:
   TheQuestion: Have you seen anything strange in the building?
   TheAnswer: "Nothing out of the ordinary really, but that\u2019s to be expected
     isn\u2019t it? It\u2019s supposed to be a regular apartment building. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 12029c2a88d5d61438cee875e3b7b80c, type: 3}
   HasFollowUp: 0
   FollowUps:
   - TheQuestion: 'What are you talking about? '
@@ -25,20 +25,23 @@ MonoBehaviour:
       and display it on a grander level, what if humans, unable to comprehend or
       mentally manage a certain facet of reality, block it out? I mean everyone,
       even you. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: a7e43a3482bd5d644ae1e83430b06534, type: 3}
     HasFollowUp: 1
+    FirstTimePlayed: 0
   - TheQuestion: "What is it I\u2019m not seeing? "
     TheAnswer: "Well fuck, everything, don\u2019t you understand? If every person
       alive blocks out an entire facet of reality, what happens when someone CAN
       see it? What happens, when she-, someone, can see something the rest of us
       can\u2019t comprehend? Is it Moses meeting God on the mountain? Does it make
       that person become unable to be comprehended by the rest of us?"
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 8a1ef2698d2883544bbf707a392ee6b8, type: 3}
     HasFollowUp: 1
+    FirstTimePlayed: 0
   - TheQuestion: 'Speak plainly, what are you trying to say? '
     TheAnswer: "You\u2019re no fun are you? If I tell you all the answers, you have
       nothing to figure out do you? I\u2019ll tell you one thing detective, Annie
       opened her eyes, and saw the world for what it was, and she wasn\u2019t the
       only one who tried."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: b43f65d0250d9a34fb2f3f96fd1fdee5, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

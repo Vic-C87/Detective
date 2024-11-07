@@ -14,14 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheQuestion: Have you seen anything strange in the building?
   TheAnswer: "Uhm\u2026 Well\u2026 I promised I wouldn\u2019t tell. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: ee5d43c7aafa5914c9a7bdc1cd40bc3d, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'Wendy, who did you promise? '
     TheAnswer: "Mum. She told me I shouldn\u2019t tell anyone, but\u2026 mum\u2019s
       gone\u2026 So, if I tell you, do you promise you\u2019ll find her? "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: f74138553ccb15543a9a2e05f37149c3, type: 3}
     HasFollowUp: 1
+    FirstTimePlayed: 0
   - TheQuestion: 'I promise, tell me what you saw. '
     TheAnswer: "Well\u2026 I saw this weird thing, before mum disappeared, she was
       crying in her garden, there was this weird man in there with her, he had really
@@ -30,5 +31,6 @@ MonoBehaviour:
       eyes, they were so bright, they looked like the sun. I also\u2026 I saw mum
       with it\u2026 a few days ago. I remember she smiled at me but then she was
       just gone. I ran down the hall as fast as I could but she wasn\u2019t there. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: bc9ea956fe2b75c46959427d2dab8941, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

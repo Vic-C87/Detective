@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "I\u2019m a musician, I play bass, less cool than guitar I know but
     it gets me ladies all the same. Or what do you say detective? Wanna hear a couple
     riffs?"
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: a36bf32288c696a4c934d52053741938, type: 3}
   HasFollowUp: 0
   FollowUps: []

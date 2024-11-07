@@ -18,11 +18,12 @@ MonoBehaviour:
     and nice\u2026 but\u2026 It always had this strange aftertaste\u2026 I still
     can\u2019t get it out of my head. She was always talking about Stewart too\u2026
     I think she liked him, or wanted me to like him, not sure which. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 05cf9ef899eb51544bbf9420d7747cf7, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Can you tell me more about her garden?
     TheAnswer: "Now that you mention it, I don\u2019t remember much other than the
       flowers, and the tea\u2026"
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 1b011f683140e23428b408f353068ec2, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

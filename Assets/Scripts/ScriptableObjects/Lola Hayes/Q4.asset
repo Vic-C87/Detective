@@ -17,12 +17,13 @@ MonoBehaviour:
     spoken much but he\u2019s very well dressed. I\u2019m certain he works down at
     the university, he\u2019s quite striking I must say, and I\u2019m sure equally
     intelligent. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 1203c044abda98844970c4f4eb954a81, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Why do you think Stuart works at the beach?
     TheAnswer: "Well I see him there quite often! I go on walks down to the waterfront
       every evening with Diana, and he\u2019s almost always there, often quite late,
       he must be a hard worker, if you know I mean."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 1398bb7aa0a0e8b4fbb353f26134057c, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

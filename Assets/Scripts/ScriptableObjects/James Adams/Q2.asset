@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "She lives in 304 right? I don\u2019t really know her to be honest.
     I know She and Annie are friends, lot\u2019s of tea in her garden. Can\u2019t
     tell you much else though. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 617679ee7d03d304d8c6b5527f8dadd3, type: 3}
   HasFollowUp: 0
   FollowUps: []

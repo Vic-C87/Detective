@@ -17,7 +17,7 @@ MonoBehaviour:
     nice. She gives me candy sometimes, and calls me a little troll. She and Mum
     used to drink tea in Mum's garden, but Mum never let me join when they were doing
     that. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: bdb77e446c1a1bc46ad4d672647168db, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Why did your mum not let you drink tea with them?
@@ -26,3 +26,4 @@ MonoBehaviour:
       it, so it\u2019s not fair, he\u2019s a grownup but he's not a girl!"
     TheAnswerAudio: {fileID: 0}
     HasFollowUp: 0
+    FirstTimePlayed: 0

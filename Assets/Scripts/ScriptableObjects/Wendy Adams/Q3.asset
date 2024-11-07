@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "I don\u2019t like her. I was grabbing a letter from our postbox mum
     asked me to give her and Ms Hayes screamed at me. Her dog is cute but always
     barks around mum. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: ad61b7bdc59ae1440a05e837ed7f1ab2, type: 3}
   HasFollowUp: 0
   FollowUps: []

@@ -17,7 +17,7 @@ MonoBehaviour:
     much else about him. He usually stinks of booze. Annie knew he was laid off,
     and I\u2019m surprised she didn\u2019t leave sooner. Maybe that\u2019s what all
     those late night conversations with Stuart were about."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: c63b9375e09a35c458edf990ded7b5f9, type: 3}
   HasFollowUp: 0
   FollowUps:
   - TheQuestion: Why are you so convinced Annie left voluntarily?
@@ -26,5 +26,6 @@ MonoBehaviour:
       new. I assumed it was somewhere tropical but she never wanted to tell me where
       she was going, and to be honest, I can\u2019t really see her leaving Wendy
       behind, she talked about bringing her."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 637a2f13929254d48b9bf48f784abb51, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

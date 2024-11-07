@@ -17,7 +17,7 @@ MonoBehaviour:
     Mr Hartwell speaking about the beach. I couldn\u2019t make out all of it through
     the door but I could tell she was trying to convince him of something. But to
     be honest I mostly stay in my room, with Diana as company."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: c3704fdb906b8de4f8609ac487dc8b47, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Who is Diana?
@@ -25,5 +25,6 @@ MonoBehaviour:
       I can tell she\u2019s going to be a wonderful queen. She\u2019s usually very
       calm but she\u2019s been more agitated lately, always barking, especially around
       that Miss Hack."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: e355bca976c329c478c8f521a11865d4, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

@@ -17,6 +17,6 @@ MonoBehaviour:
     \u201Cdeals\u201D with me, the creep\u2026 The weird thing is, the rent was already
     low, I could afford it, and always paid on time. I\u2019m not sure why it was
     so cheap."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: c2712c55eb7897a48bda83d29b3422e9, type: 3}
   HasFollowUp: 0
   FollowUps: []

@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "Ugh that bitch. She keeps complaining to The Landlord about me. It's
     not my fault that rat dog is always barking when I\u2019m listening to my music.
     I\u2019ve even turnt it off and she still complains!"
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 61b7f7e19332a4a40aeecdbfcb047af2, type: 3}
   HasFollowUp: 0
   FollowUps: []

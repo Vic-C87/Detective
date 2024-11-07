@@ -15,11 +15,12 @@ MonoBehaviour:
   TheQuestion: Can you tell me about Wendy Adams?
   TheAnswer: "It must be rough for her, without her mother. I hope you\u2019re doing
     all you can to reunite them, detective. I know I am. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 2cfe3d2a6ec9dad40838b48f71d3d309, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'What are you doing to reunite them? '
     TheAnswer: "Well I\u2019m looking for her! If you want my advice, stay in the
       building. That\u2019s your best shot, She would never abandon Wendy."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 0aa270d794c96b04881ab50320a7a10b, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

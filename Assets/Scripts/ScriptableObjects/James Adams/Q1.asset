@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "She\u2019s mine and Annies, we had her a couple of years ago shortly
     after moving in together. I was head over heels and Annie really wanted a kid,
     so I agreed. Wendys the best thing to ever happen to me, detective.  "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 612e86329365ee2478dbb7ea70d6cba5, type: 3}
   HasFollowUp: 0
   FollowUps: []

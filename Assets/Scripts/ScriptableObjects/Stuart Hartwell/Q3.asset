@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "She\u2019s quite pretty, not very similar to Annie but she has her
     charms. She might have told you already but I\u2019ve asked her out a few times,
     nothing happened though."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: bbdbe168989a25644811eda8d94ca46a, type: 3}
   HasFollowUp: 0
   FollowUps: []

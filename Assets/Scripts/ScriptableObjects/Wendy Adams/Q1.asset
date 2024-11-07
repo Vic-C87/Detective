@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "He\u2019s my dad, he used to build houses, but he didn\u2019t want
     to do it anymore so he stopped. We live in 302. I don\u2019t like how he smells,
     but I still love him. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 5db807a3d5d32c4478cdb034dfabcc3c, type: 3}
   HasFollowUp: 0
   FollowUps: []

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheQuestion: What do you do for work?
   TheAnswer: "What? I\u2019m 10."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: f29b52f5c382c2247b43a5788e74043e, type: 3}
   HasFollowUp: 0
   FollowUps: []

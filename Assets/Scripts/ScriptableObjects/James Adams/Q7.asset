@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "I\u2019m laid off, construction company went down the gutter a few
     years ago, and the rest of the lads and I all went down with it. I was supposed
     to get a letter about a new state job but I never got nothin."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: ae80d2c58540ef449828ee0831702141, type: 3}
   HasFollowUp: 0
   FollowUps: []

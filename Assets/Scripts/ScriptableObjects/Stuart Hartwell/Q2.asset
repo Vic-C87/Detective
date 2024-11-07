@@ -16,7 +16,7 @@ MonoBehaviour:
   TheAnswer: "He\u2019s lucky, I\u2019ll tell you that for free. I could say a lot
     more about the man and his antics, but I will speak ill of no man, and speak
     all the good I know of everybody."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 1e2e682fcf5b23c4894dc26dff46bdb2, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: This is a police investigation, if you have any pertinent information,
@@ -26,5 +26,6 @@ MonoBehaviour:
       around for as long as she did, especially since he was lying to her about having
       a job. If you\u2019re curious how I know, things move down the vine quickly
       around here. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 503f0d483080ee94db79e1bdf2f7dac4, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

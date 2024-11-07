@@ -16,6 +16,6 @@ MonoBehaviour:
   TheAnswer: "Oh that little brat\u2026 You know she\u2019s not as innocent as everyone
     thinks she is? I once caught her messing with the mail, and when I told her mother
     about it, she just laughed at me. Rude."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 52ed4b2ad0f182946a26d0ee481b79ce, type: 3}
   HasFollowUp: 0
   FollowUps: []

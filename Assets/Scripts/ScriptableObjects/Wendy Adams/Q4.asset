@@ -15,11 +15,12 @@ MonoBehaviour:
   TheQuestion: Can you tell me about Stuart Hartwell?
   TheAnswer: "He and mum are friends, they spend a lot of time together in mum\u2019s
     garden. I don\u2019t think dad likes him though. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: e7e86aacf0023524da1679c3b29cb90e, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: "Why doesn\u2019t your dad like Stuart? "
     TheAnswer: "I\u2019m dunno, mum and dad shouted at each other about him once
       when they thought I was sleeping. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: d1be264361ccd85449ed8cdd0de07a98, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

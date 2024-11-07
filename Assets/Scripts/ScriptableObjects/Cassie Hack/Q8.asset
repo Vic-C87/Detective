@@ -17,7 +17,7 @@ MonoBehaviour:
     that there are things in the world we can\u2019t explain. If I tell you, I promise
     you won\u2019t think I\u2019m nuts, or that I had anything to do with all this
     crazy shit happening."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 3a733c2745d71da41af608e8d1d14612, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: " I\u2019m just here to figure out what happened, if you have any
@@ -27,5 +27,6 @@ MonoBehaviour:
       looked wrong. Its eyes glew so bright I thought I would go blind. I\u2019m
       not sure what it was, or what it wanted\u2026 but it looked at me, and I still
       do sometimes. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 5b70312f571df974989161d50ec07b3f, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

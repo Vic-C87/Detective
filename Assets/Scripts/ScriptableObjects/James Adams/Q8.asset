@@ -15,7 +15,7 @@ MonoBehaviour:
   TheQuestion: 'Have you seen anything strange in the building? '
   TheAnswer: "What do you mean strange? What are you even talking about? You\u2019ve
     kept me here for 5 hours! Wait, do you think I had something to do with this?"
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 6bd405d7fe5542a4dbc833a890907f76, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: Why are you being so defensive? Have you seen something?
@@ -24,5 +24,6 @@ MonoBehaviour:
       but\u2026 this was\u2026 different. But it was also wrong, its eyes were like
       headlights\u2026 Annie felt dull in comparison, I wanted to fall into its arms
       but it disappeared. I can\u2019t stop thinking about it."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 58f92271fa716704abaee7afaeac15ef, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

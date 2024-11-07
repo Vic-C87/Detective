@@ -18,17 +18,19 @@ MonoBehaviour:
     when I was working on this building, she was one of the first residents\u2026
     I was just some construction worker but she said she didn\u2019t care. You should
     see her garden, she loved her garden."
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 6a8646c3cd4d8024585b8682c43da540, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: "I\u2019ve seen it, can you tell me more about her garden?"
     TheAnswer: "Well I wasn\u2019t allowed in it, but\u2026 I saw it, a few times,
       when I came to talk to her\u2026 it had these huge vines and flowers\u2026
       some of them even looked like\u2026 they could swallow you whole. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 058934cfae6f2fb4288ef5e5be1419bd, type: 3}
     HasFollowUp: 1
+    FirstTimePlayed: 0
   - TheQuestion: "Why didn\u2019t Annie let you into her garden?"
     TheAnswer: "Well I\u2019m not sure to be honest, I also never asked. I thought
       it would be good for her to get some alone time with her friends."
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 3df4b45a86e35dd48a566f85ca36e0f3, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

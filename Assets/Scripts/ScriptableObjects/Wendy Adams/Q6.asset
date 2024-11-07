@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheQuestion: Can you tell me about The Landlord?
   TheAnswer: Who?
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: ed37bd2471bd522478844b49f90a4dfc, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'The Landlord, the one your parents pay to stay here.  '
     TheAnswer: "Oh. I don\u2019t know, you should ask dad. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 755e72c10f08cf447980179bb7a15ffa, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

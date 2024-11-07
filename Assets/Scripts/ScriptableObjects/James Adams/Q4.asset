@@ -17,7 +17,7 @@ MonoBehaviour:
     he keeps talking \u2019bout his job down at the uni but hes full of it. I used
     to find him sniffing around Annie when I came home from work\u2026 Well, when
     I still had my job. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: b1a49532ed1b52546b7df17cdb6b79b2, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'What do you do nowadays? '
@@ -25,11 +25,13 @@ MonoBehaviour:
       to be being honest. I\u2026 I couldn\u2019t get a new job, and I couldn\u2019t
       face telling Annie the truth neither. So I told her I got a new gig and started
       loaning from my parents. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 44e4dc3a2640470498600deff4b03846, type: 3}
     HasFollowUp: 1
+    FirstTimePlayed: 0
   - TheQuestion: "Why didn\u2019t you tell Annie that you were unemployed? "
     TheAnswer: "Look at me\u2026 I\u2019m pathetic, I\u2019m a fucking joke. If I
       told her she would have left me, and taken Wendy with her. I can\u2019t even
       take care of my daughter detective, who would stay with a man like that?"
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 5f4b30d4d79bcea4a8ed30e47aecd836, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

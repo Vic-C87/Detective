@@ -16,7 +16,7 @@ MonoBehaviour:
   TheAnswer: "I used to be a researcher, now I\u2019m a professor. I work down at
     the university, it\u2019s on the beachfront. Speaking of, have you ever seen
     a beached whale? It\u2019s part of my work, I teach marine biology. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: d79143c369d87e9439f441efa9ba4bef, type: 3}
   HasFollowUp: 1
   FollowUps:
   - TheQuestion: 'Why are you asking me about beached whales? '
@@ -26,5 +26,6 @@ MonoBehaviour:
       even, not knowing whether to act and help, or watch on. Seeing a  goliath,
       which in normal circumstances would ignore me, but for this moment, helpless
       without my intervention. "
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 17c6e80bfb935e442a34845ab7eaf9ef, type: 3}
     HasFollowUp: 0
+    FirstTimePlayed: 0

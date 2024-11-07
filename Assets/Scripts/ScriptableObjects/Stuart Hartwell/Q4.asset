@@ -17,6 +17,6 @@ MonoBehaviour:
     wall street, but I repeat myself. That mutt of hers is a real piece of work,
     damned thing won\u2019t shut its trap. If you ask me, it should be put down before
     it hurts someone. I wouldn\u2019t mind doing it myself. "
-  TheAnswerAudio: {fileID: 0}
+  TheAnswerAudio: {fileID: 8300000, guid: 0458c881777eae04eba94173021547b8, type: 3}
   HasFollowUp: 0
   FollowUps: []
