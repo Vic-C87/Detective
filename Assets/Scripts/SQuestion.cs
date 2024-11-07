@@ -10,4 +10,5 @@ public struct SQuestion
     public string TheAnswer;
     public AudioClip TheAnswerAudio;
     public bool HasFollowUp;
+    public bool FirstTimePlayed;
 }

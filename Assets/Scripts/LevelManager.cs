@@ -75,6 +75,7 @@ public class LevelManager : MonoBehaviour
         question.TheAnswer = aQuestion.TheAnswer;
         question.TheAnswerAudio = aQuestion.TheAnswerAudio;
         question.HasFollowUp = aQuestion.HasFollowUp;
+        
 
         if (question.HasFollowUp)
         {
@@ -102,10 +103,12 @@ public class LevelManager : MonoBehaviour
         }
         myAnswerText.text = "";
         aButtonPressed.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Bold;
+        
+        aButtonPressed.interactable = false;
         foreach (var button in myMainQuestionButtons)
         {
             button.Key.interactable = false;
-        }        
+        } 
         if (aQuestion.TheAnswerAudio != null)
         {
             myAudioSource.clip = aQuestion.TheAnswerAudio;
@@ -116,7 +119,8 @@ public class LevelManager : MonoBehaviour
             myAnswerText.text += aQuestion.TheAnswer[i];
             yield return new WaitForSeconds(myTypewriterDelay);
         }
-        aButtonPressed.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Normal;
+
+        aButtonPressed.interactable = true;
         foreach (var button in myMainQuestionButtons)
         {
             button.Key.interactable = true;
