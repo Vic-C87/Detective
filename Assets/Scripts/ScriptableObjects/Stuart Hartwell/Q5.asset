@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q5
+  m_EditorClassIdentifier: 
+  TheQuestion: Can you tell me about Annie Adams?
+  TheAnswer: "She\u2019s wonderful, a true venus, not to mention a great conversationalist
+    and she makes a lovely cup of tea. I met her a few years ago, while researching
+    the mariana trench. After the building was finished, she wrote to me and told
+    me I should move here. So I did. You should really take a look at her garden,
+    she loves her garden. "
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 0
+  FollowUps: []

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q7
+  m_EditorClassIdentifier: 
+  TheQuestion: What do you do for work?
+  TheAnswer: "I used to be a researcher, now I\u2019m a professor. I work down at
+    the university, it\u2019s on the beachfront. Speaking of, have you ever seen
+    a beached whale? It\u2019s part of my work, I teach marine biology. "
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: 'Why are you asking me about beached whales? '
+    TheAnswer: "Well I find it fascinating, and to be honest with you detective,
+      I feel like that sometimes. Not like the whale, but like an onlooker. Seeing
+      something strange and out of place somewhere it doesn\u2019t belong. Paralyzed,
+      even, not knowing whether to act and help, or watch on. Seeing a  goliath,
+      which in normal circumstances would ignore me, but for this moment, helpless
+      without my intervention. "
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0

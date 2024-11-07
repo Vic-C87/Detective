@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q2
+  m_EditorClassIdentifier: 
+  TheQuestion: Can you tell me about Cassie Hack?
+  TheAnswer: "She looks really scary, and says mean things, but she\u2019s actually
+    nice. She gives me candy sometimes, and calls me a little troll. She and Mum
+    used to drink tea in Mum's garden, but Mum never let me join when they were doing
+    that. "
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: Why did your mum not let you drink tea with them?
+    TheAnswer: "She said it was a grown-up girls tea party, and that I could join
+      when I was older. But I saw Uncle Stuart going in there while they were doing
+      it, so it\u2019s not fair, he\u2019s a grownup but he's not a girl!"
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0

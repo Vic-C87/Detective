@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b4e040ccd68634f959b07b9540ac7a, type: 3}
+  m_Name: Q6
+  m_EditorClassIdentifier: 
+  TheQuestion: Can you tell me about The Landlord?
+  TheAnswer: "Despicable man, cheap rent though, which is a bonus. You don\u2019t
+    earn much in my line of work."
+  TheAnswerAudio: {fileID: 0}
+  HasFollowUp: 1
+  FollowUps:
+  - TheQuestion: "What\u2019s wrong with The Landlord? "
+    TheAnswer: "Well he keeps going after things that aren\u2019t his. He\u2019s
+      like a child trying to steal someone else's toy, or sees two people playing
+      a game he wasn\u2019t invited to and tries to butt in. It\u2019s not his place."
+    TheAnswerAudio: {fileID: 0}
+    HasFollowUp: 0
