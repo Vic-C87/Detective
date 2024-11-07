@@ -49,6 +49,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BorderHeight: 1.1
+    - _Border_Width: 0
     - _CRT_BORDER: 1
     - _CRT_SCREEN_WARP: 1
     - _DIFFERENT_SCROLLING: 1
