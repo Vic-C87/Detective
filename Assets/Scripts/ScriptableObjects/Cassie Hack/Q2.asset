@@ -18,7 +18,7 @@ MonoBehaviour:
     and I\u2019m surprised she didn\u2019t leave sooner. Maybe that\u2019s what all
     those late night conversations with Stuart were about."
   TheAnswerAudio: {fileID: 8300000, guid: c63b9375e09a35c458edf990ded7b5f9, type: 3}
-  HasFollowUp: 0
+  HasFollowUp: 1
   FollowUps:
   - TheQuestion: Why are you so convinced Annie left voluntarily?
     TheAnswer: "Well\u2026 She often complained during our tea times, she was always
