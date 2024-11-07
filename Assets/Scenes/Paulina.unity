@@ -123,6 +123,87 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1613474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.992005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12619898
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 380888555994767507, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 380888555994767507, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 380888555994767507, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e767c502d7790e4c96d92fa0e6cb579, type: 2}
+    - target: {fileID: 919132149155446097, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_Name
+      value: Model Stuart Hartwell
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7ded645cbf40d47479a31554819abb13, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55e98025913b8614c92b3a5df6336b32, type: 3}
 --- !u!1 &16564227
 GameObject:
   m_ObjectHideFlags: 0
@@ -7112,10 +7193,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Model Cassie Hack
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2f88ad2c162e3514ea2309494ced8f68, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 0a82ecf30aac65e4ea6a1c9100759ade, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11738,3 +11827,4 @@ SceneRoots:
   - {fileID: 401882887}
   - {fileID: 812752942}
   - {fileID: 2059550339}
+  - {fileID: 1613474}
