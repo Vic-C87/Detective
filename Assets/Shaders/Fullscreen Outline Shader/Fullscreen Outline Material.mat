@@ -11,7 +11,8 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: ca66ac9b635630a4ebfb9879cf788611, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _OVERLAY
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -37,17 +38,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Color_Threshold: 0.1
+    - _Color_Threshold: 0.4
     - _Fullscreen_AlphaBlendOperation: 0
-    - _Fullscreen_BlendMode: 4
+    - _Fullscreen_BlendMode: 2
     - _Fullscreen_ColorBlendOperation: 0
     - _Fullscreen_DepthWrite: 0
     - _Fullscreen_DstAlphaBlend: 10
-    - _Fullscreen_DstColorBlend: 0
+    - _Fullscreen_DstColorBlend: 10
     - _Fullscreen_SrcAlphaBlend: 1
-    - _Fullscreen_SrcColorBlend: 2
-    - _NormalThreshold: 0.5
-    - _OVERLAY: 0
+    - _Fullscreen_SrcColorBlend: 1
+    - _NormalThreshold: 1.53
+    - _OVERLAY: 1
     m_Colors:
-    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

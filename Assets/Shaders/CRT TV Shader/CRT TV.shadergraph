@@ -380,9 +380,6 @@
             "m_Id": "7275dc8a754f478da5fb49f3410bab63"
         },
         {
-            "m_Id": "6243ab0845ed4210a96c04334f3baf65"
-        },
-        {
             "m_Id": "1f9ff3ab7a654ae2a67d89695a700093"
         },
         {
@@ -2603,7 +2600,7 @@
     "m_Title": "CRT Screen Edges",
     "m_Position": {
         "x": 2556.800048828125,
-        "y": -340.00006103515627
+        "y": -340.0
     }
 }
 
@@ -3661,7 +3658,7 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3180.800048828125,
+            "x": 2904.800048828125,
             "y": -260.79998779296877,
             "width": 208.0,
             "height": 301.5999755859375
@@ -5183,30 +5180,6 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "3b58608a343a44a8a882bf6c7b1f4d87",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -6822,48 +6795,6 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.KeywordNode",
-    "m_ObjectId": "6243ab0845ed4210a96c04334f3baf65",
-    "m_Group": {
-        "m_Id": "0a4fb784549e42a4a691a60f71e241a7"
-    },
-    "m_Name": "CRT Screen Warp",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 2896.0,
-            "y": -260.79998779296877,
-            "width": 208.0,
-            "height": 301.5999755859375
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "3b58608a343a44a8a882bf6c7b1f4d87"
-        },
-        {
-            "m_Id": "973911aac6254880a10e4d279dcd5ca6"
-        },
-        {
-            "m_Id": "92fbcc3538194f98b2110c9252023e73"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Keyword": {
-        "m_Id": "188501c235a1482891168e1e497441f2"
     }
 }
 
@@ -8864,30 +8795,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "92fbcc3538194f98b2110c9252023e73",
-    "m_Id": 2,
-    "m_DisplayName": "Off",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Off",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 1.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ModuloNode",
     "m_ObjectId": "93d7af995302453c87173c02d86ae0f2",
     "m_Group": {
@@ -9161,30 +9068,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
-    "m_ObjectId": "973911aac6254880a10e4d279dcd5ca6",
-    "m_Id": 1,
-    "m_DisplayName": "On",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "On",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubtractNode",
     "m_ObjectId": "97e8fdaa3627440288bce5d0e533c2b0",
     "m_Group": {
@@ -9299,7 +9182,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9a0ea3f736a543e1b81d9cdbcbf0b24c",
     "m_Id": 0,
-    "m_DisplayName": "Scrolling Distortion Strength",
+    "m_DisplayName": "Scroll Distortion Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
