@@ -24,6 +24,6 @@ MonoBehaviour:
     TheAnswer: "She said it was a grown-up girls tea party, and that I could join
       when I was older. But I saw Uncle Stuart going in there while they were doing
       it, so it\u2019s not fair, he\u2019s a grownup but he's not a girl!"
-    TheAnswerAudio: {fileID: 0}
+    TheAnswerAudio: {fileID: 8300000, guid: 2761b0e2b55985d4092cbe2718cc021d, type: 3}
     HasFollowUp: 0
     FirstTimePlayed: 0
