@@ -6,7 +6,16 @@ using UnityEngine.SceneManagement;
 public class TapeSelectManager : MonoBehaviour
 {
     [SerializeField] Animator myTapeAnimator;
+    [SerializeField] GameObject myStaticTVPlane;
+    [SerializeField] AudioClip myStaticSound;
+    AudioSource myAudioSource;
 
+    [SerializeField] GameObject[] myTapes;
+
+    private void Awake()
+    {
+        myAudioSource = GetComponent<AudioSource>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +32,8 @@ public class TapeSelectManager : MonoBehaviour
     public void InsertTape()
     {
         myTapeAnimator.SetBool("Play", true);
+        myStaticTVPlane.SetActive(true);
+        myAudioSource.PlayOneShot(myStaticSound);
     }
 
     public void LoadTape(int aCharacterIndexToLoad)
