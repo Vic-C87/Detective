@@ -8,6 +8,7 @@ public class TapeGroup : MonoBehaviour
     [SerializeField] TapeSelectManager myTapeSelectManager;
     [SerializeField] Material myStandardMaterial;
     [SerializeField] Material myOutlineMaterial;
+    [SerializeField] Animator myAnimator;
 
     MeshRenderer[] myTapeMeshes;
 
@@ -34,6 +35,7 @@ public class TapeGroup : MonoBehaviour
         {
             item.materials = myOulinedList.ToArray();
         }
+        myAnimator.SetBool("Visible", true);
     }
 
     public void NoHover()
@@ -42,6 +44,8 @@ public class TapeGroup : MonoBehaviour
         {
             item.materials = myStandardList.ToArray();
         }
+        myAnimator.SetBool("Visible", false);
+
     }
 
     public void Press()
