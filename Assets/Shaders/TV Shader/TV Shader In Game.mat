@@ -14,8 +14,6 @@ Material:
   m_ValidKeywords:
   - _CRT_BORDER
   - _IMAGE_DISTORTION
-  - _OVERLAY
-  - _RGB_STRIPES
   - _SCROLLING_STATIC
   - _STATIC
   m_InvalidKeywords: []
@@ -55,18 +53,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brigthness: 0.5
+    - _Brigthness: 0.83
     - _CRT_BORDER: 1
     - _CRT_SCREEN_WARP: 1
-    - _Distortion_Noise_Scale: 100
+    - _Distortion_Noise_Scale: 81
     - _Distortion_Strength: 0.5
     - _IMAGE_DISTORTION: 1
     - _Image_Brightness: 1
     - _Line_Speed: 0.2
-    - _OVERLAY: 1
+    - _OVERLAY: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RGB_STRIPES: 1
+    - _RGB_STRIPES: 0
     - _RGB_Screen_Resolution: 128
     - _SCROLLING_STATIC: 1
     - _STATIC: 1
@@ -74,14 +72,14 @@ Material:
     - _Scanline_Strength: 1
     - _Scroll_Distortion_Lines: 1
     - _Scroll_Distortion_Strength: 0.1
-    - _Scrolling_Speed: 2
-    - _Static_Speed: 0.5
+    - _Scrolling_Speed: 1.22
+    - _Static_Speed: 0.503
     - _Static_Strength: 0.5
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _CRT_Warp_Strength: {r: 1, g: 1, b: 0, a: 0}
     - _Image_Offset: {r: 0.9, g: 1, b: 0, a: 0}
-    - _No_Overlay_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _No_Overlay_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Scroll_Speed: {r: 0, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9162397265181477227
