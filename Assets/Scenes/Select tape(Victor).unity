@@ -925,6 +925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff92c63849ade14c84e5a639baf1adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myTapeAnimator: {fileID: 5866666021609434654}
 --- !u!4 &785094575
 Transform:
   m_ObjectHideFlags: 0
