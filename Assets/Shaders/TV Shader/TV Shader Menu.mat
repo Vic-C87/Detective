@@ -11,14 +11,14 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: a6299b5dba9c0e34689bd7342f40af63, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _CRT_BORDER
+  - _CRT_SCREEN_WARP
   - _IMAGE_DISTORTION
   - _RGB_STRIPES
   - _SCROLLING_STATIC
   - _STATIC
-  m_InvalidKeywords:
-  - _CRT_SCREEN_WARP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -29,16 +29,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Base_Texture:
-        m_Texture: {fileID: 2800000, guid: b19dd43d176234745b16a1e8ef79080e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b19dd43d176234745b16a1e8ef79080e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Static_Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6401e5a1930c17a4aa700eb1c6677bef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,35 +47,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BOOLEAN: 0
-    - _Brigthness: 1
-    - _CRT_BORDER: 1
-    - _CRT_SCREEN_WARP: 1
-    - _Distortion_Noise_Scale: 0
-    - _Distortion_Strength: 0.5
-    - _IMAGE_DISTORTION: 1
-    - _Image_Brightness: 0.2
-    - _Line_Speed: 0.2
-    - _OVERLAY: 0
+    - _Brigthness: 10
+    - _Gradient_Scale: 0
+    - _Gradient_Speed: 500
+    - _Grain_Scale: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RGB_STRIPES: 1
-    - _RGB_Screen_Resolution: 480
-    - _SCROLLING_STATIC: 1
-    - _STATIC: 1
-    - _Scanline_Height: 10
-    - _Scanline_Strength: 1
-    - _Scroll_Distortion_Lines: 0.23
-    - _Scroll_Distortion_Strength: 4.1
-    - _Scrolling_Speed: 0
-    - _Static_Speed: 0.019
-    - _Static_Strength: 0.5
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _CRT_Warp_Strength: {r: 1, g: 1, b: 0, a: 0}
-    - _Image_Offset: {r: 0.9, g: 1, b: 0, a: 0}
-    - _No_Overlay_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Scroll_Speed: {r: 0, g: 1.36, b: 0, a: 0}
+    - _Speed: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &9162397265181477227
 MonoBehaviour:
