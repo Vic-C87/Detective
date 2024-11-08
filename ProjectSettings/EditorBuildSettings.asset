@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Phillip/Intro Scene.unity
+    guid: 9556dafc8c053c541894393d112f68a3
+  - enabled: 1
     path: Assets/Scenes/Select tape(Victor).unity
     guid: 2e38de3a346f55a4989b98dc424c2799
   - enabled: 1
     path: Assets/Scenes/Interview Room(Victor).unity
     guid: 1e77c7da3fa31f844923272ba47529c7
-  - enabled: 1
-    path: Assets/Scenes/Phillip/Intro Scene.unity
-    guid: 9556dafc8c053c541894393d112f68a3
   - enabled: 1
     path: Assets/Scenes/Case Files.unity
     guid: 25b5d35d026d057448124d54af838616

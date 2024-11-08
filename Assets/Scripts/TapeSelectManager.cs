@@ -50,11 +50,11 @@ public class TapeSelectManager : MonoBehaviour
     public void ExitToMenu()
     {
         GameManager.Instance.BackToMainMenu("EXIT");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 
     public void BackToTapeSelect()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
