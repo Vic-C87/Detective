@@ -3989,8 +3989,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spookyThing: {fileID: 924372622}
   spooksDuration: 20
-  minTime: 40
-  maxTime: 80
+  minTime: 90
+  maxTime: 120
 --- !u!4 &954411521
 Transform:
   m_ObjectHideFlags: 0
@@ -5745,9 +5745,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spookyThing: {fileID: 1823127486}
-  spooksDuration: 10
-  minTime: 20
-  maxTime: 40
+  spooksDuration: 20
+  minTime: 60
+  maxTime: 90
 --- !u!4 &1464080886
 Transform:
   m_ObjectHideFlags: 0
@@ -12554,9 +12554,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spookyThing: {fileID: 30239039}
-  spooksDuration: 15
-  minTime: 30
-  maxTime: 60
+  spooksDuration: 10
+  minTime: 60
+  maxTime: 90
 --- !u!4 &1991333286
 Transform:
   m_ObjectHideFlags: 0
