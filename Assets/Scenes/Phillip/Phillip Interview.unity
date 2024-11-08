@@ -1528,6 +1528,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1348593519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 898223425531842065, guid: 13b533f996bdc0048ab508f42bc54639, type: 3}
+  m_PrefabInstance: {fileID: 706016303700574573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1374967818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1604,6 +1609,67 @@ PrefabInstance:
       addedObject: {fileID: 1759407860}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ba9b1b607a338340b7219916c8cc269, type: 3}
+--- !u!1001 &1566498555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 871177576869427823, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: spookyThing
+      value: 
+      objectReference: {fileID: 1348593519}
+    - target: {fileID: 1874506851216407829, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_Name
+      value: Secret Scary Cube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.03575
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335699726266514325, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28ce57db04f7b65469f3d819a9978ec9, type: 3}
 --- !u!1 &1705687384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,6 +2500,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 543450653165066817}
     m_Modifications:
+    - target: {fileID: 898223425531842065, guid: 13b533f996bdc0048ab508f42bc54639, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6867236728408510447, guid: 13b533f996bdc0048ab508f42bc54639, type: 3}
       propertyPath: m_Name
       value: TV
@@ -6839,3 +6909,4 @@ SceneRoots:
   - {fileID: 2059550339}
   - {fileID: 9100033629729906455}
   - {fileID: 1974776291}
+  - {fileID: 1566498555}
