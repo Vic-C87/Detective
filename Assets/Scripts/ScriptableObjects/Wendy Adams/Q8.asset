@@ -22,15 +22,13 @@ MonoBehaviour:
       gone\u2026 So, if I tell you, do you promise you\u2019ll find her? "
     TheAnswerAudio: {fileID: 8300000, guid: f74138553ccb15543a9a2e05f37149c3, type: 3}
     HasFollowUp: 1
-    FirstTimePlayed: 0
   - TheQuestion: 'I promise, tell me what you saw. '
-    TheAnswer: "Well\u2026 I saw this weird thing, before mum disappeared, she was
-      crying in her garden, there was this weird man in there with her, he had really
-      long arms\u2026 When mum saw me she ran over, and hugged me really tight. She
-      told me to close my eyes but I didn\u2019t. It had these really big glowing
-      eyes, they were so bright, they looked like the sun. I also\u2026 I saw mum
-      with it\u2026 a few days ago. I remember she smiled at me but then she was
-      just gone. I ran down the hall as fast as I could but she wasn\u2019t there. "
+    TheAnswer: "Well, I saw this weird thing, before mum disappeared, she was crying
+      in her garden, there was this weird man in there with her, he had really long
+      arms. When mum saw me she ran over, and hugged me tight. She told me to close
+      my eyes but I didn\u2019t. It had these really big glowing eyes, they were
+      so bright, they looked like the sun. I saw mum with it, a few days ago again.
+      I remember she smiled at me but then she was just gone. I ran down the hall
+      as fast as I could but she wasn\u2019t there."
     TheAnswerAudio: {fileID: 8300000, guid: bc9ea956fe2b75c46959427d2dab8941, type: 3}
     HasFollowUp: 0
-    FirstTimePlayed: 0
