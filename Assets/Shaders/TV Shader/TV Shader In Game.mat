@@ -7,16 +7,20 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline Material
-  m_Shader: {fileID: -6465566751694194690, guid: 622d3ccc14e50f245aa0fe8586553e15, type: 3}
+  m_Name: TV Shader In Game
+  m_Shader: {fileID: -6465566751694194690, guid: a6299b5dba9c0e34689bd7342f40af63, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _OUTLINE_TOGGLE
-  - _SIZE_ANIMATION_TOGGLE
-  m_InvalidKeywords:
-  - _SIZE_ANIMATION
-  m_LightmapFlags: 2
+  - _CRT_BORDER
+  - _CRT_SCREEN_WARP
+  - _IMAGE_DISTORTION
+  - _OVERLAY
+  - _RGB_STRIPES
+  - _SCROLLING_STATIC
+  - _STATIC
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -27,7 +31,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Base_Texture:
-        m_Texture: {fileID: 2800000, guid: 9527e082906fbbf4a991674a6bc066b2, type: 3}
+        m_Texture: {fileID: 2800000, guid: e712e404a92d97c458359ee0f438e603, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -44,19 +48,35 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Max_Size: 0.5
-    - _OUTLINE_TOGGLE: 1
-    - _Outline_Size: 1.02
+    - _CRT_BORDER: 1
+    - _CRT_SCREEN_WARP: 1
+    - _Distortion_Noise_Scale: 100
+    - _Distortion_Strength: 0.5
+    - _IMAGE_DISTORTION: 1
+    - _Image_Brightness: 1
+    - _Line_Speed: 0.2
+    - _OVERLAY: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SIZE_ANIMATION: 1
-    - _SIZE_ANIMATION_TOGGLE: 1
-    - _Size_Over_Time: 1.025
-    - _Start_Size: 1.01
+    - _RGB_STRIPES: 1
+    - _RGB_Screen_Resolution: 128
+    - _SCROLLING_STATIC: 1
+    - _STATIC: 1
+    - _Scanline_Height: 10
+    - _Scanline_Strength: 1
+    - _Scroll_Distortion_Lines: 1
+    - _Scroll_Distortion_Strength: 0.1
+    - _Scrolling_Speed: 2
+    - _Static_Speed: 0.5
+    - _Static_Strength: 0.5
     m_Colors:
-    - _Outline_Color: {r: 5.0030723, g: 10.277585, b: 4.634609, a: 1}
+    - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _CRT_Warp_Strength: {r: 1, g: 1, b: 0, a: 0}
+    - _Image_Offset: {r: 0.9, g: 1, b: 0, a: 0}
+    - _No_Overlay_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Scroll_Speed: {r: 0, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6089748952635297636
+--- !u!114 &9162397265181477227
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
