@@ -8,12 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TV Shader In Game
-  m_Shader: {fileID: -6465566751694194690, guid: a6299b5dba9c0e34689bd7342f40af63, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: aab6fce8f18dd404ba76c15865e09abb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CRT_BORDER
-  - _CRT_SCREEN_WARP
   - _IMAGE_DISTORTION
   - _OVERLAY
   - _RGB_STRIPES
@@ -34,6 +33,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: e712e404a92d97c458359ee0f438e603, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b19dd43d176234745b16a1e8ef79080e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Static_Texture:
+        m_Texture: {fileID: 2800000, guid: b19dd43d176234745b16a1e8ef79080e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -48,6 +55,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Brigthness: 0.5
     - _CRT_BORDER: 1
     - _CRT_SCREEN_WARP: 1
     - _Distortion_Noise_Scale: 100
