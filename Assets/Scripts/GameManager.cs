@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
 
     List<SQuestion> myAskedQuestions = new List<SQuestion>();
 
+    [SerializeField] AudioSource myTutorial;
+
+
     private void Awake()
     {
         if (myGameManager != null && myGameManager != this)
@@ -32,7 +35,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        myTutorial.Play();
     }
 
     // Update is called once per frame
@@ -40,6 +43,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
 
     public void LoadTape(int aCharacterToInterview)
     {
@@ -66,5 +70,12 @@ public class GameManager : MonoBehaviour
     public bool IsQuestionAsked(SQuestion aQuestion)
     {
         return myAskedQuestions.Contains(aQuestion);
+    }
+
+    public void BackToMainMenu(string aGuess)
+    {
+        //Do something withname
+        Destroy(NotepadCanvas.Instance.gameObject);
+        Destroy(this.gameObject);
     }
 }

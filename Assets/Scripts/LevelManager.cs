@@ -31,8 +31,9 @@ public class LevelManager : MonoBehaviour
     int myLetterIndex = 0;
     float myTypewriterTimeStamp;
 
-    //DEBUG
-    [SerializeField] bool playSound;
+    [SerializeField] AudioClip myEjectTapeSound;
+    [SerializeField] GameObject myEjectPanel;
+    [SerializeField] GameObject myCanvas;
 
     private void Awake()
     {
@@ -236,6 +237,19 @@ public class LevelManager : MonoBehaviour
 
     public void ReturnToTapeSelect()
     {
+        myEjectPanel.SetActive(true);
+        myCanvas.SetActive(false);
+        StartCoroutine(ReturnToTapeScene());
+    }
+
+    IEnumerator ReturnToTapeScene()
+    {
+
+        myAudioSource.clip = myEjectTapeSound;
+        float lenght = myEjectTapeSound.length;
+        myAudioSource.Play();
+        yield return new WaitForSeconds(lenght);
         GameManager.Instance.ReturnToTapeSelect();
+
     }
 }

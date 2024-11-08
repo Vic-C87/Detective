@@ -7,7 +7,7 @@ public class SpooksTrigger : MonoBehaviour
     [SerializeField] GameObject spookyThing;
     [SerializeField] float spooksDuration;
     [SerializeField] float minTime;
-    [SerializeField] float maxTime; 
+    [SerializeField] float maxTime;
 
     void Start()
     {
@@ -21,7 +21,6 @@ public class SpooksTrigger : MonoBehaviour
 
     IEnumerator waitForSpooks(float spooksDuration)
     {
-        Debug.Log("hit");
         spookyThing.gameObject.SetActive(true);
         yield return new WaitForSeconds(spooksDuration);
         spookyThing.gameObject.SetActive(false);
@@ -31,9 +30,7 @@ public class SpooksTrigger : MonoBehaviour
     IEnumerator startNewTimer(float minTime, float maxTime)
     {
         float timerLength = Random.Range(minTime, maxTime);
-        Debug.Log("här");
         yield return new WaitForSeconds(timerLength);
-        Debug.Log("nu");
         StartCoroutine(waitForSpooks(spooksDuration));
     }
 }
