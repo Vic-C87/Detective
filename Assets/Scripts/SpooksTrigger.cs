@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class SpooksTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] GameObject spookyThing;
     [SerializeField] float spooksDuration;
     [SerializeField] float minTime;
-    [SerializeField] float maxTime;
-    
-    
+    [SerializeField] float maxTime; 
 
     void Start()
     {
-        startNewTimer(minTime, maxTime);
+        StartCoroutine(startNewTimer(minTime, maxTime));
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -25,15 +21,19 @@ public class SpooksTrigger : MonoBehaviour
 
     IEnumerator waitForSpooks(float spooksDuration)
     {
+        Debug.Log("hit");
         spookyThing.gameObject.SetActive(true);
         yield return new WaitForSeconds(spooksDuration);
         spookyThing.gameObject.SetActive(false);
+        StartCoroutine(startNewTimer(minTime, maxTime));
     }
 
     IEnumerator startNewTimer(float minTime, float maxTime)
     {
         float timerLength = Random.Range(minTime, maxTime);
+        Debug.Log("här");
         yield return new WaitForSeconds(timerLength);
-        waitForSpooks(spooksDuration);
+        Debug.Log("nu");
+        StartCoroutine(waitForSpooks(spooksDuration));
     }
 }
