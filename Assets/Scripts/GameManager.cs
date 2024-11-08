@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     public void ReturnToTapeSelect()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
 
     }
 

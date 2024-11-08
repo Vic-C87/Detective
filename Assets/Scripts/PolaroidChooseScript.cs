@@ -23,6 +23,6 @@ public class PolaroidChooseScript : MonoBehaviour
     {
         Debug.Log(myName);
         GameManager.Instance.BackToMainMenu(myName);
-        SceneManager.LoadScene(2);//Change to main menu
+        SceneManager.LoadScene(0);//Change to main menu
     }
 }
