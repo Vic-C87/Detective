@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class TapeSelectManager : MonoBehaviour
 {
+    [SerializeField] Animator myTapeAnimator;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +17,17 @@ public class TapeSelectManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void InsertTape()
+    {
+        myTapeAnimator.SetBool("Play", true);
     }
 
     public void LoadTape(int aCharacterIndexToLoad)
     {
+        InsertTape();
         GameManager.Instance.LoadTape(aCharacterIndexToLoad);
-        SceneManager.LoadScene(1);
     }
 }

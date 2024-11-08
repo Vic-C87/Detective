@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] List<GameObject> myCharacters;
 
     int mySelectedCharacterIndex = 0;
+
+    List<SQuestion> myAskedQuestions = new List<SQuestion>();
 
     private void Awake()
     {
@@ -52,5 +55,16 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
 
+    }
+
+    public void AddNEWQuestion(SQuestion aQuestion)
+    {
+        if (!IsQuestionAsked(aQuestion))
+            myAskedQuestions.Add(aQuestion);
+    }
+
+    public bool IsQuestionAsked(SQuestion aQuestion)
+    {
+        return myAskedQuestions.Contains(aQuestion);
     }
 }

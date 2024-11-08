@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: Stuart Hartwell
   myDescription: 
+  myModel: {fileID: 6756091282744124056, guid: 8f136aa265974324cb3111fafebd4f4f, type: 3}
 --- !u!114 &7809316031532701144
 MonoBehaviour:
   m_ObjectHideFlags: 0
