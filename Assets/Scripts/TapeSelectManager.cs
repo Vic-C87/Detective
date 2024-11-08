@@ -41,4 +41,20 @@ public class TapeSelectManager : MonoBehaviour
         InsertTape();
         GameManager.Instance.LoadTape(aCharacterIndexToLoad);
     }
+
+    public void MakeGuess()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void ExitToMenu()
+    {
+        GameManager.Instance.BackToMainMenu("EXIT");
+        SceneManager.LoadScene(2);
+    }
+
+    public void BackToTapeSelect()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

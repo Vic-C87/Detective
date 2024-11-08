@@ -71,4 +71,11 @@ public class GameManager : MonoBehaviour
     {
         return myAskedQuestions.Contains(aQuestion);
     }
+
+    public void BackToMainMenu(string aGuess)
+    {
+        //Do something withname
+        Destroy(NotepadCanvas.Instance.gameObject);
+        Destroy(this.gameObject);
+    }
 }
