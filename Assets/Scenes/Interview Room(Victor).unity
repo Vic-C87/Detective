@@ -5178,7 +5178,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1289930222}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -6194,7 +6194,7 @@ MonoBehaviour:
   myCharacter: {fileID: 0}
   myQuestions: {fileID: 0}
   myTypewriterDelay: 0.05
-  myEjectTapeSound: {fileID: 8300000, guid: e906ee998199e974685829b3405a55e7, type: 3}
+  myEjectTapeSound: {fileID: 8300000, guid: f560721d206571442a0995ccd8d92c30, type: 3}
   myEjectPanel: {fileID: 949748417}
   myCanvas: {fileID: 1122189345}
 --- !u!4 &1547253701
