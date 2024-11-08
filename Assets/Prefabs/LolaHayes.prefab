@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: Lola Hayes
   myDescription: 
+  myModel: {fileID: 6400753371883907897, guid: 96e0c00570030f840ad34d00ba169bbe, type: 3}
 --- !u!114 &167663932853753648
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: James Adams
   myDescription: 
+  myModel: {fileID: 7838013839631951428, guid: 1e42f99c5f647e342a9d9a1d70cfd8c5, type: 3}
 --- !u!114 &8314841938835213301
 MonoBehaviour:
   m_ObjectHideFlags: 0

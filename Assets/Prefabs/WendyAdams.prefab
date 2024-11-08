@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myName: Wendy Adams
   myDescription: 
+  myModel: {fileID: 189076618854610105, guid: 00f9bf7cf3b869742bd0b238ab0ccde8, type: 3}
 --- !u!114 &4373802308415070854
 MonoBehaviour:
   m_ObjectHideFlags: 0
