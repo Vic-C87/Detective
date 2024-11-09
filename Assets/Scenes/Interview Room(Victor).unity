@@ -4096,7 +4096,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -4810,7 +4810,7 @@ Canvas:
   m_GameObject: {fileID: 1122189345}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 961500065}
   m_PlaneDistance: 0.5
   m_PixelPerfect: 0
@@ -5135,7 +5135,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 33.600006, y: 29}
+  m_AnchoredPosition: {x: 33.599976, y: 29}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1289930221
@@ -5670,9 +5670,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spookyThing: {fileID: 1823127486}
-  spooksDuration: 20
-  minTime: 60
-  maxTime: 90
+  spooksDuration: 5
+  minTime: 90
+  maxTime: 400
 --- !u!4 &1464080886
 Transform:
   m_ObjectHideFlags: 0
