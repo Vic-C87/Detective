@@ -537,11 +537,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4706870715184311729, guid: 16037412766a8dd44ae56a5bcc8addea, type: 3}
       propertyPath: maxCooldown
-      value: 5
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4706870715184311729, guid: 16037412766a8dd44ae56a5bcc8addea, type: 3}
       propertyPath: minCooldown
-      value: 5
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4706870715184311729, guid: 16037412766a8dd44ae56a5bcc8addea, type: 3}
       propertyPath: spooksDuration
